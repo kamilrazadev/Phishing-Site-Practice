@@ -99,7 +99,8 @@ button {
     border-radius: 30px;
 
     border: none;
-    background-color: #fff;
+    background-color: transparent;
+    color: #fff;
     box-shadow: 0 0 3px 1px rgb(107, 107, 107);
 }
 
