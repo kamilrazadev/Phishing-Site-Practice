@@ -106,7 +106,6 @@ button {
 
 button:active {
     scale: 0.99;
-    background-color: #efefef;
 }
 
 .icon {
