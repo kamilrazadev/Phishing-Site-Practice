@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-size: cover;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    padding: 30px 20px;
+    margin: 10px;
+
+    border-radius: 30px;
+
+    backdrop-filter: blur(5px);
+    border: 1px solid #b1b1b1;
+    color: white;
+    overflow: hidden;
+
+}
+
+.company-logo {
+    width: 100px;
+}
+
+.title {
+    margin: 0;
+    text-align: center;
+
+    font-size: 30px;
+
+
+    font-family: 'Kaushan Script', cursive;
+}
+
+.position-info {
+    width: 100%;
+    margin: 15px 0;
+
+    font-size: 15px;
+}
+
+ul {
+    padding: 5px 20px;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+button {
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    height: 60px;
+    padding: 0 25px;
+
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 30px;
+
+    border: none;
+    background-color: #fff;
+    box-shadow: 0 0 3px 1px rgb(107, 107, 107);
+}
+
+button:active {
+    scale: 0.99;
+    background-color: #efefef;
+}
+
+.icon {
+    width: 35px;
+}
