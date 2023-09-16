@@ -131,6 +131,27 @@ ul {
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
 }
 
+.message__div {
+    cursor: default;
+    width: 100%;
+    margin-bottom: 16px;
+    padding: 16px;
+    border: 1px solid #cc000067;
+    border-radius: 6px;
+    background-color: #ff000015;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    display: none;
+}
+
+.message__div span {
+    color: red;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
 .signin__content {
     width: 308px;
 }
